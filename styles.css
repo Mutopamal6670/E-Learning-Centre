@@ -372,9 +372,88 @@
 
 
 
+/*Third Section Styles*/
 
 
+.sect3 {
+    width: 90%;
+    height: 500px;
+    margin: 30px 50px;
+    max-width: 1300px;
+}
+.sect3-container {
+    display: grid;
+    grid-template-columns: [portion1-start]4fr [portion2-start]1fr [portion3-start]3fr;
+    grid-template-rows: [row1-start]50px [row2-start]400px [row3-start]50px;
+    border: solid;
+    border-radius: 20px;
+}
 
+.sect3-img {
+    grid-row: row1-start / -1;
+    grid-column: portion1-start / -2;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.sect3-img img {
+    grid-row: row1-start / -1;
+    grid-column: portion1-start / -2;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.sect3-img h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.sect3-offers {
+    grid-column: portion2-start / -1;
+    grid-row: row2-start / row3-start;
+    border: solid;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "area1 area2"
+                          "area3 area4";
+
+    /*The blury background effect*/
+    background: rgba(255, 255, 255, 0.1) ;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -ms-backdrop-filter: blur(10px);
+}
+
+.offer {
+    background-color: #e0dede;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.offer:nth-child(1) {
+    grid-area: area1;
+}
+
+.offer:nth-child(2) {
+    grid-area: area2;
+}
+
+.offer:nth-child(3) {
+    grid-area: area3;
+}
+
+.offer:nth-child(4) {
+    grid-area: area4;
+}
+
+.offer img {
+    height: 30%;
+    width: 30%;
+}
 
 
 

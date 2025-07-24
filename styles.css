@@ -7,6 +7,10 @@
 }
 
 
+body {
+    background: rgb(245, 245, 245);
+}
+
 
 .navbar {
     background-color: #101c73;
@@ -257,7 +261,7 @@
 
 .img-container img {
     height: 500px;
-    border-radius: 20%;
+    border-radius: 20px;
 }
 
 
@@ -385,7 +389,7 @@
     display: grid;
     grid-template-columns: [portion1-start]4fr [portion2-start]1fr [portion3-start]3fr;
     grid-template-rows: [row1-start]50px [row2-start]400px [row3-start]50px;
-    border: solid;
+    /* border: solid; */
     border-radius: 20px;
 }
 
@@ -394,6 +398,7 @@
     grid-column: portion1-start / -2;
     height: 100%;
     border-radius: 20px;
+    position: relative;
 }
 
 .sect3-img img {
@@ -404,15 +409,17 @@
     border-radius: 20px;
 }
 
-.sect3-img h3 {
+.sect3-img h2 {
     position: absolute;
     top: 0;
     left: 0;
+    padding: 10px;
 }
+
 .sect3-offers {
     grid-column: portion2-start / -1;
     grid-row: row2-start / row3-start;
-    border: solid;
+    /* border: solid; */
     border-radius: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -421,10 +428,10 @@
                           "area3 area4";
 
     /*The blury background effect*/
-    background: rgba(255, 255, 255, 0.1) ;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    -ms-backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.5) ;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    -ms-backdrop-filter: blur(15px);
 }
 
 .offer {

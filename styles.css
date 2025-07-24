@@ -228,6 +228,21 @@
 }
 
 
+.intro-btn button:nth-child(odd):hover {
+    background-color: #021141;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.intro-btn button:nth-child(even):hover {
+    background-color: #101c73;
+    transition: all 0.3s ease-in-out;
+}
+
+.intro-btn button:nth-child(even) a:hover {
+    color: #fff;;
+    transition: all 0.3s ease-in-out;
+}
 
 .intro-btn button:nth-child(odd) a {
     color: #fff;

@@ -464,6 +464,104 @@ body {
 
 
 
+/*Fourth Section Styles*/
+
+.sect4 {
+    margin-top: 40px;
+    width: 90%;
+    height: 500px;
+    margin: 30px 50px;
+    max-width: 1300px;
+}
+
+.sect4-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sect4-h2-p {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#internal-div {
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background-color: #f8f8f8;
+    height: 50px;
+    border: solid thin black;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+
+.sect4-h2-p h2 {
+    font-size: 2rem;
+    padding: 20px 0;
+}
+
+.sect4-h2-p p {
+    font-size: 1.2rem;
+    padding: 20px 0;
+}
+
+.sect4-content {
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+.sect4-img-container {
+    width: 32%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    justify-content: center;
+    align-items: self-start;
+    padding-bottom: 5px;
+}
+
+.sect4-img-container h3 {
+    padding: 5px 0;
+    padding-top: 20px;
+}
+
+.sect4-img-container p {
+    font-size: 1.2rem;
+    width: 90%;
+}
+
+.sect4-container button {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.contained-img {
+    width: 100%;
+    height: 350px;
+    
+}
+
+.contained-img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+
 
 
 

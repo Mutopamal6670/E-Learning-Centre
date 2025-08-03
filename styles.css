@@ -673,6 +673,10 @@ body {
     }
 
 
+    .navbar {
+        width: 96%;
+        position: absolute;
+    }
     .navbar_container {
         display: flex;
         justify-content: space-between;
@@ -681,31 +685,28 @@ body {
     }
 
     .intro {
-        margin: 30px 50px;
-        height: 500px;
+        height: auto;
+        border: solid;
+        width: 96%;
     }
 
     .intro-container {
         display: flex;
         flex-direction: column;
         width: 100%;
-        align-items: center;/*
-        justify-content: center;
-        width: 90%; */
+        align-items: center;
     }
-
 
     .intro-txt {
         display: flex;
         flex-direction: column;
         width: 96%;
-        /* align-items: center; */
+        align-items: center; 
     }
 
     #txt-introduction {
         text-align: center;
-        position: relative;
-        width: 100%;
+        width: 96%;
         height: 30px;
         margin: 5px 0;
     }
@@ -752,9 +753,108 @@ body {
         width: 96%;
         
     }
-    
-    
-   
+
+    .sect2 {
+        width: 96%;
+        border: solid;
+        height: auto;
+    }
+
+    .sect2-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .heading {
+        width: 50%;
+        height: 35px;
+    }
+
+    .heading p {
+        font-size: 1.3rem;
+    }
+
+    .heading-and-btn {
+        width: 100%;
+    }
+
+    .heading-and-btn h2 {
+        font-size: 1.2rem;
+        width: 60%;
+    }
+
+    .courses {
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .courses-item {
+        width: 96%;
+        display: flex;
+        
+    }
+
+    .courses-item h3 {
+        font-size: 1rem;
+    }
+
+    .sect3 {
+        width: 96%;
+        height: auto;
+        border: solid;
+    }
+
+    .sect3-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sect3-img {
+        width: 100%;
+    }
+
+    .sect3-img img {
+        width: 100%;
+    }
+
+    .sect4 {
+        width: 96%;
+        border: solid;
+        height: auto;
+    }
+
+    .sect4-container {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .sect4-h2-p {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sect4-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sect4-img-container {
+        width: 96%;
+    }
+
+    .contained-img {
+        width: 100%;
+    }
+
+    /*Add the Respnsive features for the footer*/
 }
-
-

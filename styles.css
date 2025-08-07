@@ -262,6 +262,7 @@ body {
 .img-container img {
     height: 500px;
     border-radius: 20px;
+    max-width: 100%;
 }
 
 
@@ -643,14 +644,210 @@ body {
 }
 
 
+@media (max-width: 920px) {
+    .intro {
+        max-width: 98%;
+        max-height: 400px;
+    }
 
-/*
+    .intro-txt {
+        max-width: 49%;
+        position: relative;
+        left: 0;
+    }
+
+    .img-container {
+        max-width: 49%;
+    }
+
+    .img-container img {
+        max-width: 100%;
+        max-height: 350px;
+    }
+
+    .intro-txt {
+        width: 100%;
+    }
+
+    #txt-introduction {
+        width: 350px;
+    }
+
+    .intro-txt h2 {
+        font-size: 1.3rem;
+    }
+
+    .intro-txt p {
+        font-size: 1.2rem;
+    }
+
+    .intro-btn {
+        width: 96%;
+        padding-left: 5px;
+    }
+
+    .heading {
+        width: 200px;
+    }
+
+    .heading-and-btn button {
+        width: 200px;
+    }
+
+    .contained-img:nth-child(3) {
+        height: 230px;
+    }
+    
+    .contained-img img {
+        max-height: 230px;
+    }
+}
+
+
+
+/* 
+@media screen and (min-width: 720px){
+    .intro {
+        width: 98%;
+    }
+
+    .intro-txt {
+        width: 49%;
+    }
+    .intro-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .img-container {
+        display: flex;
+        justify-content: center;
+        width: 49%;
+    }
+
+    .intro-btn {
+        width: 100%;
+    }
+
+    .sect4 {
+        height: auto;
+    }
+
+    .sect4-img-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "area1 area2";
+        height: 250px;
+        margin: 5px 0;
+    }
+
+    .contained-img img{
+        grid-area: area2;
+        width: 100%;
+        height: 240px;
+    }
+
+    .sect4-h3-p{
+        grid-area: area1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+} */
+
+
+
+/* 
+
+@media (max-width: 600px) {
+    .intro {
+        width: 98%;
+    }
+    .img-container img{
+        height: auto;
+    }
+    .sect2-container {
+        width: 98%;
+    }
+    .courses {
+        position: relative;
+        left: 10px;
+        width: 100%;
+        border-radius: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "area1 area2"
+                            "area3 area4";
+        gap: 10px;
+    }
+
+    .courses-item:nth-child(1) {
+        grid-area: area1;
+    }
+
+    .courses-item:nth-child(2) {
+        grid-area: area2;
+    }
+
+    .courses-item:nth-child(3) {
+        grid-area: area3;
+    }
+
+    .courses-item:nth-child(4) {
+        grid-area: area4;
+    }
+    
+}
+
+
+@media (max-width: 560px) {
+    .intro {
+        height: auto;
+    }
+    .img-container {
+        height: fit-content;
+    }
+    
+    #txt-introduction p {
+        font-weight: bold;
+        font-size: 1.4rem;
+    }
+
+    .intro-txt h2{
+        font-size: 1.5rem;
+        text-align: left;
+        width: 100%;
+    }
+
+
+    .intro-txt p{
+        font-size: 1.2rem;
+        width: 100%;
+    }
+
+    .sect2,
+    .sect3,
+    .sect4 {
+        height: auto;
+    }
+
+    
+
+    .sect4-img-container {
+        width: 98%;
+        height: fit-content;
+    }
+
+}
 
 
 
 
-
-@media screen and (min-width: 400px){    
+@media screen and (max-width: 480px){    
 
     .intro {
         margin-top: 20px;
@@ -868,139 +1065,4 @@ body {
         font-size: .8rem;
     }
 }
-
-
-@media screen and (min-width: 480px) {
-    .intro {
-        height: auto;
-    }
-    .img-container {
-        height: fit-content;
-    }
-    
-    #txt-introduction p {
-        font-weight: bold;
-        font-size: 1.4rem;
-    }
-
-    .intro-txt h2{
-        font-size: 1.5rem;
-        text-align: left;
-        width: 100%;
-    }
-
-
-    .intro-txt p{
-        font-size: 1.2rem;
-        width: 100%;
-    }
-
-    .sect2,
-    .sect3,
-    .sect4 {
-        height: auto;
-    }
-
-    
-
-    .sect4-img-container {
-        width: 98%;
-        height: fit-content;
-    }
-
-}
-
-@media  screen and (min-width: 560px) {
-    .intro {
-        width: 98%;
-    }
-    .img-container img{
-        height: auto;
-    }
-    .sect2-container {
-        width: 98%;
-    }
-    .courses {
-        position: relative;
-        left: 10px;
-        width: 100%;
-        border-radius: 20px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-template-areas: "area1 area2"
-                            "area3 area4";
-        gap: 10px;
-    }
-
-    .courses-item:nth-child(1) {
-        grid-area: area1;
-    }
-
-    .courses-item:nth-child(2) {
-        grid-area: area2;
-    }
-
-    .courses-item:nth-child(3) {
-        grid-area: area3;
-    }
-
-    .courses-item:nth-child(4) {
-        grid-area: area4;
-    }
-    
-}
-
-@media screen and (min-width: 600px){
-    .intro {
-        width: 98%;
-    }
-
-    .intro-txt {
-        width: 49%;
-    }
-    .intro-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .img-container {
-        display: flex;
-        justify-content: center;
-        width: 49%;
-    }
-
-    .intro-btn {
-        width: 100%;
-    }
-
-    .sect4 {
-        height: auto;
-    }
-
-    .sect4-img-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas: "area1 area2";
-        height: 250px;
-        margin: 5px 0;
-    }
-
-    .contained-img img{
-        grid-area: area2;
-        width: 100%;
-        height: 240px;
-    }
-
-    .sect4-h3-p{
-        grid-area: area1;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-    }
-}
-
-*/
+ */

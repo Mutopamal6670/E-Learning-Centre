@@ -703,6 +703,126 @@ body {
     }
 }
 
+@media (max-width: 829px) {
+    #txt-introduction {
+        width: 300px;
+    }
+
+    .img-container img {
+        max-width: 100%;
+        max-height: 300px;
+    }
+}
+
+@media (max-width: 730px) {
+    #txt-introduction {
+        width: 250px;
+    }
+
+    .intro-txt h2 {
+        font-size: 1.2rem;
+    }
+
+    .intro-txt p {
+        font-size: 1rem;
+    } 
+
+
+    .offer h4 {
+        font-size: 0.8rem;
+    }
+
+    .offer p {
+        font-size: 0.8rem;
+    }
+
+    .contained-img img{
+        height: 215px;
+        max-height: 215px;
+    }
+
+    .sect4-h3-p {
+        height: 200px;
+    }
+
+    .sect4-h3-p h3 {
+        font-size: 1rem;
+    }
+
+
+    .sect4-h3-p p {
+        font-size: 1rem;
+    }
+
+    .footer-item h3 {
+        font-size: 1rem;
+    }
+    .footer-item a {
+        font-size: 0.8rem;
+    }
+
+    .footer-item p {
+        font-size: .8rem;
+     }
+
+     .footer-item a img {
+        width: 10px;
+        height: 10px;
+     }
+
+      .footer-item:nth-last-child a:nth-last-child {
+        font-size: 0.6rem;
+      }
+}
+
+@media (max-width: 620px) {
+    #txt-introduction {
+        width: 200px;
+    }
+
+    .intro-btn {
+        width: 100%;
+    }
+
+    .intro-btn button {
+        width: 300px;
+    }
+
+    .intro-btn button a {
+        font-size: 0.7rem;
+    }
+
+    .heading-and-btn h2 {
+        font-size: 1.05rem;
+    }
+
+    .offer img {
+        display: none;
+    }
+
+    .courses-item h3 {
+        font-size: 0.9rem;
+    }
+
+    .courses-item p {
+        font-size: 0.8rem;
+        color: #444343;
+    }
+
+    .courses-item img {
+        display: none;
+    }
+
+    .courses-item a {
+        font-size: 0.9rem;
+    }
+
+    .courses-item a:hover {
+        font-size: 1rem;
+    }
+
+}
+
 
 
 /* 

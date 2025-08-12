@@ -1503,24 +1503,6 @@ body {
         justify-content: center;
         align-items: center;
     }
-
-    .footer-items-container {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .footer-item {
-        width: 100%;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        margin-top: 10px;
-    }
-
-    .footer-bottom {
-        width: 98%;
-        font-size: .8rem;
-    }
 }
- */
+
+*/

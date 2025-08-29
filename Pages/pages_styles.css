@@ -213,7 +213,6 @@ body {
     margin: 0 30px;
     height: auto;
     margin-top: 50px;
-    border: solid;  /*to be removed*/
 }
 
 
@@ -222,7 +221,6 @@ body {
     justify-content:space-between;
     align-items: center;
     width: 100%;
-    border: solid;  /*to be removed*/
 }
 
 .contents {
@@ -234,7 +232,6 @@ body {
     height: auto;   /*350px if necessary*/
     padding-top: 0;
     margin-top: 0;
-    border: solid;  /*to be removed*/
 }
 
 
@@ -267,7 +264,6 @@ body {
 }
 
 
-
 .btn {
     display: flex;
     justify-content: space-between;
@@ -293,12 +289,19 @@ body {
     color: #fff;
 }
 
+
+.btn button:hover {
+    background-color: #021141;
+    scale: 1.2;
+    transition: all 0.3s ease-in-out;
+    
+}
+
 .section2-img-container {
     display: flex;
     justify-content: center;
     width: 50%;
     height: 400px;
-    border: solid;  /*to be removed*/
 }
 
 .section2-img-container  img {
@@ -309,4 +312,80 @@ body {
     max-width: 100%;
 }
 
+/*Section 3 styles*/
 
+
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+    height: auto;
+    margin-top: 50px;
+}
+
+
+.section3-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas: "area1 area2 area3"
+                        "area4 are52 area6"
+                        "area7 area8 area9";
+}
+
+.sect3-heading {
+    grid-area: area3;
+    text-align: center;
+    width: 60%; 
+    background-color: #101c73;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.sect3-heading p {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: lighter;
+}
+
+.para {
+    grid-row: 2 / -2;
+    grid-column: 1 / -1;
+}
+
+.para p {
+    font-size: 2rem;
+    padding-top: 10px;
+}
+
+.sect3-btn {
+    margin-top: 10px;
+    grid-area: area7;
+}
+
+.sect3-btn button {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #101c73;
+}
+
+.sect3-btn button a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #fff;
+}
+
+.sect3-btn button:hover {
+    background-color: #021141;
+    scale: 1.2;
+    transition: all 0.3s ease-in-out;
+}

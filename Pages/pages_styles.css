@@ -133,6 +133,8 @@ body {
    
 }
 
+/*Section 1 Styles*/
+
 .section1 {
     display: flex;
     justify-content: center;
@@ -177,7 +179,7 @@ body {
 }
 
 .paragraphs p {
-    font-size: 2.3rem;
+    font-size: 2rem;
     font-family:  sans-serif;
     padding-top: 20px;
 }
@@ -200,3 +202,111 @@ body {
     border-radius: 20px;
     max-width: 100%;
 }
+
+
+/*Section 2 Styles*/
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+    height: auto;
+    margin-top: 50px;
+    border: solid;  /*to be removed*/
+}
+
+
+.section2-container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    border: solid;  /*to be removed*/
+}
+
+.contents {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 30px;
+    height: auto;   /*350px if necessary*/
+    padding-top: 0;
+    margin-top: 0;
+    border: solid;  /*to be removed*/
+}
+
+
+.heading {
+   text-align: center;
+    position: relative;
+    right: 0;
+    width: 50%; 
+    background-color: #101c73;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.heading p {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.courses {
+    padding-top: 20px;
+    list-style: none;
+}
+
+.courses li {
+    font-size: 2rem;
+    padding-bottom: 15px;
+}
+
+
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding-top: 30px;
+}
+
+
+.btn button {
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #101c73;
+}
+
+
+.btn button a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.section2-img-container {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 400px;
+    border: solid;  /*to be removed*/
+}
+
+.section2-img-container  img {
+    height: 100%;
+    width: 90%;
+    max-height: 400px;
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+

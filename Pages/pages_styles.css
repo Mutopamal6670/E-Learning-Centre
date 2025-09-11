@@ -479,3 +479,64 @@ hr {
     color: black;
     text-decoration: none;
 }
+
+/*Full Curiculum Section*/
+
+.curriculum {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+    height: auto;
+    margin-top: 50px;
+    border: solid;
+}
+
+
+.full-curriculum {
+   text-align: center;
+    position: relative;
+    right: 0;
+    width: 50%; 
+    background-color: #101c73;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.full-curriculum p {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.curriculum-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 98%;
+    height: auto;
+    border: solid;
+}
+
+.curriculum-item {
+    margin-top: 10px;
+    padding-bottom: 0;
+}
+
+.curriculum-item h3 {
+    font-size: 1.8rem;
+}
+
+.curriculum-item ul {
+    list-style-position: inside;
+}
+.curriculum-item ul li {
+    font-size: 1.5rem;
+}
+
+#less-btn {
+    margin-left: 0;
+}

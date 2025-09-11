@@ -483,14 +483,13 @@ hr {
 /*Full Curiculum Section*/
 
 .curriculum {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0 30px;
     height: auto;
     margin-top: 50px;
-    border: solid;
 }
 
 
@@ -518,7 +517,6 @@ hr {
     grid-template-rows: 1fr 1fr 1fr;
     width: 98%;
     height: auto;
-    border: solid;
 }
 
 .curriculum-item {
@@ -538,5 +536,6 @@ hr {
 }
 
 #less-btn {
+    display: none;
     margin-left: 0;
 }

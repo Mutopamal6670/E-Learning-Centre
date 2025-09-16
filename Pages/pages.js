@@ -1,14 +1,16 @@
+/*** 
+Thsi script is used to display and hide the full curriculum section
+*/
 
 
-
-const viewFull_curr = document.getElementById('view-btn');
-const hideFull_curr = document.getElementById('less-btn');
-const curr_sect = document.getElementsByClassName('curriculum');
+const viewFull_curr = document.getElementById('view-btn');  //Accessing the view full curriculum button
+const hideFull_curr = document.getElementById('less-btn');  //accessing the view less button
+const curr_sect = document.getElementsByClassName('curriculum');    //accessing the div section which containes the full curriculum
 
 
 
 viewFull_curr.addEventListener('click', e => {
-    e.preventDefault();
+    e.preventDefault();     
     display();
 });
 

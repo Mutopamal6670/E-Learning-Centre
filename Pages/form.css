@@ -1,0 +1,128 @@
+.main-container {
+    margin: 10px 30px;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.create {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    
+}
+
+.inner-create {
+    margin-top: 10px;
+    width: 90%;
+    height: 40px;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid thin #222;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.inner-create a {
+    color: black;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.form-container {
+    grid-area: "form";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5%;
+    width: 100%;
+}
+
+.create p {
+    font-size: 1.2rem;
+}
+#form {
+    width: 600px;
+    margin: 0 5px;
+    padding: 0;
+    font-size: 0.8rem;
+    border-radius: 4px;
+    background-color: whitesmoke;
+}
+
+
+#form h2, h3 {
+    color: #0f2027;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#form h2 {
+    margin-bottom: 10px;
+}
+
+
+#form button {
+    width: 200px;
+    padding: 10px;
+    margin-top: 5px 0;
+    color: white;
+    background-color: #101c73;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    left: 35%;
+    font-size: 1.2rem;
+}
+
+#question {
+    position: relative;
+    left: 30%;
+    font-size: 1.2rem;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.input-control input{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 96%;
+}
+
+
+.input-control input:focus {
+    outline: 0;
+}
+
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+
+}

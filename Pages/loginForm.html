@@ -6,7 +6,7 @@
     <title>Simplicity E-Learning Centre</title>
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="form.css">
-    <script defer src="form.js"></script>
+    <script defer src="logIn.js"></script>
 
 </head>
 <body>
@@ -38,13 +38,13 @@
 
                 <li class="navbar-btn">
                     <button>
-                        <a href="/Pages/loginForm.html"  class="btn-link">Sign In</a>
+                        <a href="#"  class="btn-link">Sign In</a>
                     </button>
                 </li>
 
                 <li class="navbar-btn">
                     <button>
-                        <a href="/" class="btn-link">Sign Up</a>
+                        <a href="/Pages/form.html" class="btn-link">Sign Up</a>
                     </button>
                 </li>
             </ul>
@@ -67,24 +67,15 @@
                     </div> -->
 
                     <button id="inner-create">
-                        <a href="#">Create with Google</a>
+                        <a href="#">Sign in with Google</a>
                     </button>
                     <p>Or</p>   
                 </div>
                 
 
                 <div class="input-control">
-                    <label for="email">Email Address</label>
-                    <input type="email" name="user" id="email" placeholder="Enter your email address">
-                       
-                    <div class="error">    
-                        <!--This div containers the error message specific for this field-->
-                    </div>
-                </div>
-
-                <div class="input-control">
-                    <label for="username">Full name</label>
-                    <input type="text" name="user" id="username" placeholder="Enter your full name">
+                    <label for="username">User name</label>
+                    <input type="text" name="user" id="username" placeholder="Enter your username">
                         
                     <div class="error">    
                         <!--This div containers the error message specific for this field-->
@@ -94,25 +85,16 @@
 
                 <div class="input-control">
                     <label for="password">Password</label>
-                    <input type="password" name="user" id="password" placeholder="Create your password">
+                    <input type="password" name="user" id="password" placeholder="Enter your password">
                         <!--Add a div here that will contain an error message to be displayed when the email is invalid-->
                     <div class="error">    
                         <!--This div containers the error message specific for this field-->
                     </div>
                  </div>
 
-                <div class="input-control">
-                    <label for="password2">Confirm Password</label>
-                    <input type="password" name="user" id="password2" placeholder="Confirm your password">
-                        <!--Add a div here that will contain an error message to be displayed when the email is invalid-->
-                    <div class="error">    
-                         <!--This div containers the error message specific for this field-->
-                    </div>
-                </div>
+                <button type="submit" id="submit">Log in</button>
 
-                <button type="submit" id="submit">Create an account</button>
-
-                <p id="question">Already have an account? <a href="/Pages/loginForm.html">Login</a></p>
+                <p id="question">No account yet? <a href="/Pages/form.html">Sign Up</a></p>
 
             </form>
         </div>
